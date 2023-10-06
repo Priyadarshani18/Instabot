@@ -7,8 +7,7 @@ import time
 import random
 
 
-#open cmd and write
-#ek ek krke daalio bsdk, pehle line 1 and usko donload hone dio, ek hi wala banake deta but time kam hai
+
 '''
 1) pip install instagrapi
 2) pip install oauth2client
@@ -30,7 +29,7 @@ scopes = [
 
 
 cl = Client()
-cl.login('Masteruber', '8447391024')
+cl.login('Master', '8447391024')
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name("dotted-hope-341616-4e5d44b7775e.json", scopes) #access the json key you downloaded earlier 
 file = gspread.authorize(credentials) # authenticate the JSON key with gspread
